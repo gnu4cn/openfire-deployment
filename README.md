@@ -18,7 +18,7 @@
 
 ## OpenFire文件传输的支持
 
-默认安装的OpenFire并不支持文件传输。为实现文件传输，需要加入一些系统属性。在“服务器” -> “系统熟悉” -> “添加新属性”中，加入以下属性：
+默认安装的OpenFire并不支持文件传输。为实现文件传输，需要加入一些系统属性。在“服务器” -> “系统熟悉” -> “添加新属性”中，加入以下属性（参考[文件传输](https://github.com/KangLin/RabbitIm/blob/master/docs/Books/FileTransfer.md)）：
 
 ```
 xmpp.filetransfer.enabled = true
